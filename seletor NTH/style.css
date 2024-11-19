@@ -1,0 +1,8 @@
+/* 
+PARA SELECIONAR UM ELEMENTO ESPECIFICO 
+DE UM CONJUNTO DE ELEMENTOS, USAMOS: 
+*/
+
+div:nth-last-child(3) {
+    background-color: aqua;
+}

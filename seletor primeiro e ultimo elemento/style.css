@@ -1,0 +1,23 @@
+div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+/* 
+PRA SELECIONAR O PRIMEIRO ELEMENTO
+DO TIPO QUE EU QUERO:
+*/
+
+div:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+/* 
+PRA SELECIONAR O ULTIMO ELEMENTO
+DO TIPO QUE EU QUERO:
+*/
+
+div:last-child {
+    border-radius: 0 0 20px 20px;
+}

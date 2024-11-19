@@ -1,0 +1,19 @@
+/* 
+PARA SELECIONAR A PRIMEIRA LETRA
+DE UM ELEMENTO, USAMOS: 
+*/
+
+p::first-letter {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* 
+PARA SELECIONAR A PRIMEIRA LINHA
+DE UM ELEMENTO, USAMOS: 
+*/
+
+p::first-line {
+    text-decoration: underline;
+    font-weight: bold;
+}

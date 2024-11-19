@@ -1,0 +1,9 @@
+body {
+    background-color: #919191;
+}
+
+/* SELECIONAR TUDO MENOS UM ELEMENTO */
+
+body :not(div, span) {
+    background-color: aqua;
+}

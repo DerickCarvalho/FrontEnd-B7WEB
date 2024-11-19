@@ -1,0 +1,39 @@
+a {
+    display: block;
+}
+
+/* 
+PARA SELECIONAR UM ELEMENTO ATRAVÉS DO SEU
+ATRIBUTO, USAMOS O SEGUINTE MODELO:
+
+elemento[atributo=atributo] {
+    propriedade
+} 
+*/
+
+/* 
+SELECIONAR TODO ELEMENTO QUE POSSUI
+PALAVRA X NO INICIO DE SEU ATRIBUTO: 
+*/
+
+a[href^="https"] {
+    background-color: #858585;
+}
+
+/* 
+SELECIONAR TODO ELEMENTO QUE POSSUI
+PALAVRA X EM NO FINAL DE SEU ATRIBUTO: 
+*/
+
+a[href$="html"] {
+    background-color: #5cd9ff;
+}
+
+/* 
+SELECIONAR TODO ELEMENTO QUE POSSUI
+PALAVRA X EM ALGUM LUGAR DE SEU ATRIBUTO: 
+*/
+
+a[href*="saude"] {
+    background-color: #ff5c5c;
+}

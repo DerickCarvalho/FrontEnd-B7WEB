@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+
+span::before {
+    content: "-> ";
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+span::after {
+    content: " <-";
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+/*
+SE QUISER CRIAR UM ELEMENTO GRAFICO NA TELA
+E IMPORTANTE LEMBRAR DO DISPLAY BLOCK, EXEMPLO: 
+*/
+
+div::before {
+    content: "";
+    background-color: black;
+    display: inline-block; /* SEM ISSO O ELEMENTO NAO APARECE */
+    width: 20px;
+    height: 20px;
+}
