@@ -1,0 +1,7 @@
+thead th {
+    background-color: #969696;
+}
+
+tr:nth-child(even) {
+    background-color: #2ec500;
+}

@@ -1,0 +1,21 @@
+.balao {
+    background-color: #0000ff;
+    display: inline-block;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.balao::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -4px;
+
+    border: 20px solid;
+
+    /* CRIAR TRIANGULO NO CSS */
+
+    border-color: #00f transparent transparent transparent;
+}
